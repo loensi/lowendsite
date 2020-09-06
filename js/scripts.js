@@ -18,3 +18,21 @@
   
   // update new img src and link HREF value
   $('#links1').append(newBannerImg);
+
+// dynamic scroll to top
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 250) {
+        $('#scroll-up').fadeIn();
+    } else {
+        $('#scroll-up').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#scroll-up").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
