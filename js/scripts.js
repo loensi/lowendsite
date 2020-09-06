@@ -22,7 +22,7 @@
 // dynamic scroll to top
 $(window).scroll(function() {
     var height = $(window).scrollTop();
-    if (height > 250) {
+    if (height > 350) {
         $('#scroll-up').fadeIn();
     } else {
         $('#scroll-up').fadeOut();
