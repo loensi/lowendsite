@@ -1,3 +1,9 @@
+  // Blogger image stuff ?
+  summary_noimg = 400;
+  summary_img = 270;
+  img_thumb_height = 150;
+  img_thumb_width = 200; 
+
 function removeHtmlTag(strx,chop){ 
 	if(strx.indexOf("<")!=-1)
 	{
