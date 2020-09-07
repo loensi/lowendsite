@@ -27,7 +27,15 @@ function createSummaryAndThumb(pID){
 	var img = div.getElementsByTagName("img");
 	var summ = summary_noimg;
 	if(img.length>=1) {	
-		imgtag = '<img src="'+img[0].src+'" class="pbtthumbimg"/>';
+		var imgurl = new URL(img[0].src);
+		var imgpath = imgurl.pathname.split('/');
+		    imgpath[05] = 's400/' + imgpath[05];
+		var imgthumb = "";
+		for (i = 0; i < imgpath.length; i++) {
+		  imgthumb += "/";
+		  imgthumb += pathArray[i];
+		}
+		imgtag = '<img src="'+imgthumb+'" class="pbtthumbimg"/>';
 		summ = summary_img;
 	}
 	
