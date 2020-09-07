@@ -29,13 +29,14 @@ function createSummaryAndThumb(pID){
 	if(img.length>=1) {	
 		var imgurl = new URL(img[0].src);
 		var imgpath = imgurl.pathname.split('/');
-		    imgpath[05] = 's400/' + imgpath[05];
+		    imgpath[04] = 's400';
 		var imgthumb = "";
 		for (i = 0; i < imgpath.length; i++) {
 		  imgthumb += "/";
 		  imgthumb += imgpath[i];
 		}
-		imgtag = '<img src="'+imgthumb+'" class="pbtthumbimg"/>';
+		    imgthumb = imgurl.hostname + imgthumb;
+		imgtag = '<img src="//'+imgthumb+'" class="pbtthumbimg"/>';
 		summ = summary_img;
 	}
 	
