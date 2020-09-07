@@ -35,7 +35,7 @@ function createSummaryAndThumb(pID){
 		  imgthumb += "/";
 		  imgthumb += imgpath[i];
 		}
-		    imgthumb = imgurl.hostname + imgthumb;
+		    imgthumb = imgurl.hostname + imgthumb.substring(1);
 		imgtag = '<img src="//'+imgthumb+'" class="pbtthumbimg"/>';
 		summ = summary_img;
 	}
