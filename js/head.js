@@ -33,7 +33,7 @@ function createSummaryAndThumb(pID){
 		var imgthumb = "";
 		for (i = 0; i < imgpath.length; i++) {
 		  imgthumb += "/";
-		  imgthumb += pathArray[i];
+		  imgthumb += imgpath[i];
 		}
 		imgtag = '<img src="'+imgthumb+'" class="pbtthumbimg"/>';
 		summ = summary_img;
