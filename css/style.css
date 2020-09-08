@@ -182,7 +182,6 @@ article dd {margin:0 0 15px 0;}
 .post-metanbt button:hover, .post-metanbt button:active {border: none; background-color:#343e4d; text-decoration: none; color:#0d121a;}
 .post-metanbt button:hover i.fa {color:#0d121a;}
 .post-metanbt a.sharer button i.fa {padding-left:5px; padding-top:4px; font-size:22px;}
-// .post-metanbt span {margin-right:5px; color:#ccc;}
 .authornbt {padding: 10px 20px 15px;margin: 20px 0 20px;}
 .authornbt img {float:left; height:auto;width:69px;border-radius:50%;display:block;margin:0 20px 0 0;}
 
