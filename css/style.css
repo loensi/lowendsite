@@ -33,7 +33,6 @@ header #descriptionnbt p {margin:2px 0 0 0; float:left;}
 header .menunbt {margin:1px 0 10px 0; padding:0 0 0 15px; float:left;}
 header .menunbt li a {display:inline; text-transform:uppercase; font-weight:bold; font-size:12px; line-height:12px; margin-right:10px;}
 #currentpage {background-color: #1e293a;}
-//header .menunbt li a, .menunbt li a:hover {color:#495 !important;}
 header #nav-searchnbt {padding-left:0;}
 #search-btnnbt {background-color:transparent; color:#a6acb2; float:right; padding:0px 7px; border:0;}
 #search-btnnbt:hover {color:#eee;}
@@ -134,7 +133,7 @@ footer .menunbt li a {color:#666e75;}
 .post-date-authornbt i:nth-child(even){padding-left: 8px;}
 .post-date-authornbt span {font-size:15px; margin-right:8px;}
 .post-date-authornbt .glyphicon-user {margin-left:8px;}
-.pbtthumbimg {
+.summary img {
   float:left;
   margin:0px 10px 5px 0px;
   padding:0px;
@@ -210,7 +209,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
     div.date-outer.tabfix:first-of-type{margin-top:45px;}
     .date-outer.tabfix{margin-top:0px;}
     .separator a {margin: 0 !important;}
-    .pbtthumbimg{width:100%; margin: 0 0 10px 0;}
+    .summary img{width:100%; margin: 0 0 10px 0;}
 }
 /* -- sm -- */
 @media (min-width:768px) and (max-width:991px) {
