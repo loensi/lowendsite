@@ -142,8 +142,8 @@ footer .menunbt li a {color:#666e75;}
   width:200px;
   max-height:145px;
   height:auto;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
 }
 article {font-size:15px; background-color: #131a24;}
 article p{line-height: 170%;}
