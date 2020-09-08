@@ -234,7 +234,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
 	#sidebar-rightnbt {padding-left:15px;}
 }
 /* -- lg -- */
-@media (min-width:1200px) {	
+@media (min-width:1600px) {	
 	.summary img{width:250px;}		
 }
 
