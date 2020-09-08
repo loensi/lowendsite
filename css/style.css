@@ -140,10 +140,12 @@ footer .menunbt li a {color:#666e75;}
   border:0px solid #eee;
   background:transparent;
   width:200px;
-  max-height:145px;
+  max-height:133px;
   height:auto;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(0.3px);
+  -webkit-filter: blur(0.3px);
+  display:block;
+  overflow:hidden;
 }
 article {font-size:15px; background-color: #131a24;}
 article p{line-height: 170%;}
