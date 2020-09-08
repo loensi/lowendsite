@@ -140,6 +140,7 @@ footer .menunbt li a {color:#666e75;}
   border:0px solid #eee;
   background:transparent;
   width:200px;
+  max-height:145px;
   height:auto;
 }
 article {font-size:15px; background-color: #131a24;}
@@ -209,7 +210,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
     div.date-outer.tabfix:first-of-type{margin-top:45px;}
     .date-outer.tabfix{margin-top:0px;}
     .separator a {margin: 0 !important;}
-    .summary img{width:100%; margin: 0 0 10px 0;}
+    .summary img{width:100%; max-height: auto;margin: 0 0 10px 0;}
 }
 /* -- sm -- */
 @media (min-width:768px) and (max-width:991px) {
@@ -235,7 +236,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
 }
 /* -- lg -- */
 @media (min-width:1600px) {	
-	.summary img{width:250px;}		
+	.summary img{width:250px;max-height:auto;}		
 }
 
 #links1 img, #links2 img {max-width: 250px;width:100%;height:auto;margin: 0 auto 20px; display:block;}
