@@ -147,6 +147,7 @@ footer .menunbt li a {color:#666e75;}
 .summary p{
   text-indent:0;
   font-size: 15px;
+  margin: 0;
 }
 article {font-size:15px; background-color: #131a24;}
 article p{line-height: 170%;}
