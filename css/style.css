@@ -137,7 +137,7 @@ footer .menunbt li a {color:#666e75;}
 .summary img.pbtthumb{max-height:none;filter: none;}
 .summary-thumb{margin: 0 15px 10px 0;width:200px;max-height:133px;float:left;overflow:hidden;}
 .summary-thumb img {
-  width:200px;
+  width:100%;
   max-height:133px;
   height:auto;
   filter: blur(0.3px);
@@ -214,7 +214,8 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
     div.date-outer.tabfix:first-of-type{margin-top:45px;}
     .date-outer.tabfix{margin-top:0px;}
     .separator a {margin: 0 !important;}
-    .summary-thumb img{width:100%; max-height: none;margin: 0 0 10px 0;}
+    .summary-thumb, .summary-thumb img{width:100%; max-height: none;}
+    .summary-thumb {margin: 0 0 10px 0;}
 }
 /* -- sm -- */
 @media (min-width:768px) and (max-width:991px) {
@@ -240,7 +241,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
 }
 /* -- lg -- */
 @media (min-width:1600px) {	
-	.summary-thumb img{width:250px;max-height:none;}		
+	.summary-thumb, .summary-thumb img {width:250px;max-height:none;}		
 }
 
 #links1 img, #links2 img {max-width: 250px;width:100%;height:auto;margin: 0 auto 20px; display:block;}
