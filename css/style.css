@@ -219,7 +219,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
     div.date-outer.tabfix:first-of-type{margin-top:45px;}
     .date-outer.tabfix{margin-top:0px;}
     .separator a {margin: 0 !important;}
-    .summary-thumb, .summary-thumb img{width:100%; max-height: none;}
+    .summary-thumb {width:100%; max-height: none;}
     .summary-thumb {margin: 0 0 10px 0;}
 }
 /* -- sm -- */
@@ -246,7 +246,7 @@ code {background-color:#0d121a;color:#495;margin:-1px 0.2em 0;padding:0.2em 0.5e
 }
 /* -- lg -- */
 @media (min-width:1600px) {	
-	.summary-thumb, .summary-thumb img {width:250px;max-height:none;}	
+	.summary-thumb {width:250px;max-height:none;}	
 }
 
 #links1 img, #links2 img {max-width: 250px;width:100%;height:auto;margin: 0 auto 20px; display:block;}
