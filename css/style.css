@@ -144,8 +144,8 @@ footer .menunbt li a {color:#666e75;}
   height:100%;
   width:auto;
   max-width:none;
-  filter: blur(0.3px);
-  -webkit-filter: blur(0.3px);
+  filter: blur(0.7px);
+  -webkit-filter: blur(0.7px);
   display:block;
   position:absolute;
   top:0;left:0; 
